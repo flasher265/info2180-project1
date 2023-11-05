@@ -1,0 +1,238 @@
+/* Add your CSS to this file */
+/*Received help in parts from a past student who wishes to remain anonymous*/
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+
+
+
+header{
+    background-color: white; 
+    padding-top: 50px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{ 
+    font-size: 18px;
+    float: left;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+}
+
+nav {
+    display: inline;
+    list-style-type: none;
+    text-align: right; 
+    padding: 0;
+    margin: 0;   
+}
+
+nav li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+}
+
+li a:link {
+    color: #6B7280;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: #5a67d8 ;
+}
+
+
+
+
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.card img{
+    margin:0 auto;
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0 0 3px #000 ;
+    border: 2px solid #E2E8F0;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+   
+   
+}
+
+.card-body{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.overview-hero{
+    background-color: #E2E8F0 ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.overview-hero .container img{
+    width: 250px; height: 150px;
+    float: left;
+}
+
+.overview-hero-text {
+    text-align:right;
+   
+}
+
+
+
+
+.learn-about .container{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-color: #E2E8F0;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78; 
+}
+
+.learn-about .card-body h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+
+.testing {
+    background-color: #4A5568;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+}
+
+.testing .container {
+    grid-template-columns: 2fr 1fr;
+}
+
+.testing .cta a{
+    background-color: #48BB78;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+.testing-description h2 {
+   
+    color: white;
+}
+.testing .testing-description p {
+    
+    color: white;
+    max-width: 550px;
+}
+
+
+
+article{
+    display: inline-flex;
+    align-content: right;
+}
+
+
+.stories img{
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50%;
+    float: left;
+    height:250px;
+    width:250px;
+}
+
+.stories h2{
+    color: #48BB78;
+}
+
+.stories .container .article-body p a{
+    color:#5A67D8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.newsletter{
+    color: white;
+    background-color:#48BB78;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    align-content: center;
+}
+
+.form-group{
+    display:contents;
+    align-self: center;
+}
+
+.newsletter p{
+    max-width: 450px;
+    align-content: center;
+}
+
+.newsletter button{
+    background-color:#5A67D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.newsletter .container .submit .btn{
+    background-color:#5A67D8;
+}
+
+
+footer{
+    background-color: #4A5568;
+}
+footer p{
+    color: white;
+}
